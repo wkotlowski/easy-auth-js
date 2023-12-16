@@ -1,0 +1,27 @@
+{
+  "name": "easy-auth-js",
+  "version": "1.0.0",
+  "description": "OAuth authorization code with PKCE for SPAs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkotlowski/easy-auth-js.git"
+  },
+  "keywords": [
+    "oauth",
+    "pkce",
+    "spa",
+    "authorization",
+    "code",
+    "flow"
+  ],
+  "author": "Wojciech Kotłowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wkotlowski/easy-auth-js/issues"
+  },
+  "homepage": "https://github.com/wkotlowski/easy-auth-js#readme"
+}
