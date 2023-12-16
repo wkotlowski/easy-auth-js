@@ -82,7 +82,7 @@ Use the `onTokenInvalid` method to set a callback that will be triggered when th
 ```javascript
 easyAuth.onTokenInvalid(() => {
   // Custom logic when the token is invalid or expired
-  alert("Your session has expired. Please log in again.");
+  easyAuth.authorize();
 });
 ```
 
