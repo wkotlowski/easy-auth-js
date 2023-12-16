@@ -7,10 +7,16 @@
     tokenEndpoint: 'https://acme-org.eu.authz.cloudentity.io/acme-org/demo/oauth2/token',
     clientID: '666200daea7d48ce945e5d04a668dd27',
     redirectURI: 'http://127.0.0.1:5500/index.html',
-    state: '1234567'
+    state: '1234567',
+    scopes: ['openid', 'profile', 'email']
   });
 
-   document.getElementById('authButton').addEventListener('click', () => {
-     easyAuth.authorize();
-   });
+  document.getElementById('authButton').addEventListener('click', () => {
+    easyAuth.authorize();
+  });
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    easyAuth.getAuth()
+  });
+
 </script>
