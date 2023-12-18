@@ -1,5 +1,5 @@
 {
-  "name": "easy-auth-js",
+  "name": "@macabrrra/easy-auth-js",
   "version": "1.0.0",
   "description": "OAuth authorization code with PKCE for SPAs",
   "main": "index.js",
