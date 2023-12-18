@@ -14,7 +14,7 @@ EasyAuth is a lightweight, easy-to-use JavaScript library designed to simplify t
 To install EasyAuth, use npm:
 
 ```bash
-npm install easy-auth-js
+npm install @macabrrra/easy-auth-js
 ```
 
 ## Usage
